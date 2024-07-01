@@ -55,18 +55,18 @@ https://github.com/kimk-s/some1/assets/71550078/74c60a1d-c242-41aa-baf3-6ec8d2c6
 ## 애플리케이션 구성도
 <img width="700" src="https://github.com/kimk-s/some1/assets/71550078/44a6959f-06ce-4de4-bde2-28163ce77ff1" />
 
-### 서버 측
+### 서버 애플리케이션
 - [Wait](https://github.com/kimk-s/some1/tree/main/src/Some1.Wait.Back.MagicServer) : 웹과 같은 요청/응답을 처리하는 아웃게임 서버 애플리케이션입니다.
 - [Play](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Server.Tcp) : 실시간 멀티플레이를 처리하는 인게임 서버 애플리케이션입니다.
 
-### 클라이언트 측
+### 클라이언트 애플리케이션
 - [Unity](https://github.com/kimk-s/some1/tree/main/src/Some1.User.Unity) : 게임 이용자가 사용하는 GUI 애플리케이션입니다.
 - [CLI](https://github.com/kimk-s/some1/tree/main/src/Some1.User.CLI) : 게임 개발자가 부하테스트 등에 사용하는 명령줄 인터페이스 애플리케이션입니다.
 
 ## Play(인게임) 모듈 구성도
 <img width="700" src="https://github.com/kimk-s/some1/assets/71550078/8a258aea-a476-4970-8b2d-92f5790139d8" />
 
-### 서버 애플리케이션
+### 서버 모듈
 - [Core](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Core) : 비즈니스 로직 모듈입니다.
 - [Data](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Data.Postgres) : 데이터베이스 모듈입니다.
 
@@ -74,7 +74,7 @@ https://github.com/kimk-s/some1/assets/71550078/74c60a1d-c242-41aa-baf3-6ec8d2c6
 - [Sync](https://github.com/kimk-s/some1/tree/main/src/Some1.Sync) : 객체의 상태 변화를 추적하고, 서버와 클라이언트 사이에 동기화하는 모듈입니다.
 - [Net](https://github.com/kimk-s/some1/tree/main/src/Some1.Net) : 공용 네트워크 모듈입니다.
 
-### 클라이언트 애플리케이션
+### 클라이언트 모듈
 - [Front](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Front) : 비즈니스 로직 모듈입니다.
 - [Client](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Client.Tcp) : 네트워크 모듈입니다.
 
