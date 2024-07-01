@@ -1,0 +1,20 @@
+{
+    "name": "Some1.Wait.Front",
+    "rootNamespace": "",
+    "references": [
+        "GUID:da32781a949cc794798dcae22016cc13",
+        "GUID:7d473a8e68a69c14782ac87c794ed95c",
+        "GUID:9b675d79126fca04584b183e50babd97",
+        "GUID:756335c0388f7114790e504ed368ae1d",
+        "GUID:77221876cc6b8244180b96e320b1bcd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

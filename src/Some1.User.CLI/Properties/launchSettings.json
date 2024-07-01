@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Some1.User.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "run --address 127.0.0.1 --port 8000 --count 10 --time 5",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

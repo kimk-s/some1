@@ -1,0 +1,19 @@
+{
+    "name": "Some1.Play.Client.Tcp",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1cc847bae5228a141adc8efa0ce668a8",
+        "GUID:48ed6fd20b5ed594fb066dd95ad19bb8",
+        "GUID:d9033be831e57c8429758d32c14c54f4",
+        "GUID:756335c0388f7114790e504ed368ae1d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

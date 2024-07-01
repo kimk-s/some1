@@ -1,0 +1,23 @@
+{
+    "name": "Some1.Play.Core",
+    "rootNamespace": "",
+    "references": [
+        "GUID:48ed6fd20b5ed594fb066dd95ad19bb8",
+        "GUID:337a3ff5954b32347ae8b6491101f30f",
+        "GUID:fe9ed66fe781b3341b16348ccfe3e2fc",
+        "GUID:a3d4082644a39ce40b9965d555f6118a",
+        "GUID:1cc847bae5228a141adc8efa0ce668a8",
+        "GUID:756335c0388f7114790e504ed368ae1d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

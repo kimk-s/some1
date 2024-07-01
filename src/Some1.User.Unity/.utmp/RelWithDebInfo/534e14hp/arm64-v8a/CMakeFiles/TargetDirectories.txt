@@ -1,0 +1,5 @@
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/534e14hp/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/534e14hp/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/534e14hp/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/534e14hp/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/534e14hp/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

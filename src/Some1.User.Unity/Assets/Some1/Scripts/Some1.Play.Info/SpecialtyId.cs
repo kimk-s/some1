@@ -1,0 +1,36 @@
+﻿namespace Some1.Play.Info
+{
+    public enum SpecialtyId
+    {
+        Mob1,
+        Mob2,
+        Mob3,
+        Mob4,
+        Chief1,
+        Chief2,
+        Boss1,
+        Boss2,
+        Boss3,
+        Boss4,
+        Boss5,
+        Boss6,
+        Plant1,
+        Plant2,
+        Plant3,
+        Plant4,
+        Plant5,
+        Plant6,
+        Plant7,
+        Plant8,
+        Animal1,
+        Animal2,
+        Animal3,
+        Animal4,
+        Animal5,
+        Animal6,
+        Animal7,
+        Animal8,
+        Animal9,
+        Animal10,
+    }
+}

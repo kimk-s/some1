@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>$(AssemblyName.Replace(".Abstractions", ""))</RootNamespace>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+    <!--<LangVersion>9.0</LangVersion>-->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MemoryPack" Version="1.21.1" />
+  </ItemGroup>
+
+</Project>

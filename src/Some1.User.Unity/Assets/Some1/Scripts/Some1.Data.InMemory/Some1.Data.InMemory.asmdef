@@ -1,0 +1,19 @@
+{
+    "name": "Some1.Data.InMemory",
+    "rootNamespace": "",
+    "references": [
+        "GUID:337a3ff5954b32347ae8b6491101f30f",
+        "GUID:eb1002a55f7b6e04382ea4d11e02070b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

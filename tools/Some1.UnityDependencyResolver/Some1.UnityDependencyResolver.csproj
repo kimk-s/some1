@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <UnityPath>..\..\src\Some1.User.Unity\Assets\Some1\</UnityPath>
+    <RobocopyOptions>/MIR /XD bin obj /NFL /NDL /NJH /NJS /np</RobocopyOptions>
+  </PropertyGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="(robocopy ..\..\src\Some1 $(UnityPath)Scripts\Some1 *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Auth.Front.Abstractions $(UnityPath)Scripts\Some1.Auth.Front.Abstractions *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Data.InMemory $(UnityPath)Scripts\Some1.Data.InMemory *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Net $(UnityPath)Scripts\Some1.Net *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Client.Abstractions $(UnityPath)Scripts\Some1.Play.Client.Abstractions *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Client.InMemory $(UnityPath)Scripts\Some1.Play.Client.InMemory *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Client.Tcp $(UnityPath)Scripts\Some1.Play.Client.Tcp *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Core $(UnityPath)Scripts\Some1.Play.Core *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Data.Abstractions $(UnityPath)Scripts\Some1.Play.Data.Abstractions *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Data.InMemory $(UnityPath)Scripts\Some1.Play.Data.InMemory *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Front $(UnityPath)Scripts\Some1.Play.Front *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Play.Info $(UnityPath)Scripts\Some1.Play.Info *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Prefs.Data.Abstractions $(UnityPath)Scripts\Some1.Prefs.Data.Abstractions *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Prefs.Front $(UnityPath)Scripts\Some1.Prefs.Front *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Prefs.UI $(UnityPath)Scripts\Some1.Prefs.UI *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Reactive $(UnityPath)Scripts\Some1.Reactive *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Resources $(UnityPath)Scripts\Some1.Resources *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Store.Admin.Abstractions $(UnityPath)Scripts\Some1.Store.Admin.Abstractions *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Sync $(UnityPath)Scripts\Some1.Sync *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.UI $(UnityPath)Scripts\Some1.UI *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.User.ViewModel $(UnityPath)Scripts\Some1.User.ViewModel *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Wait.Back $(UnityPath)Scripts\Some1.Wait.Back *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Wait.Back.Abstractions $(UnityPath)Scripts\Some1.Wait.Back.Abstractions *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Wait.Back.MagicClient $(UnityPath)Scripts\Some1.Wait.Back.MagicClient *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(copy ..\..\src\Shared\IWaitBackMagicService.cs $(UnityPath)Scripts\Some1.Wait.Back.MagicClient\IWaitBackMagicService.cs) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Wait.Data.Abstractions $(UnityPath)Scripts\Some1.Wait.Data.Abstractions *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Wait.Data.InMemory $(UnityPath)Scripts\Some1.Wait.Data.InMemory *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <Exec Command="(robocopy ..\..\src\Some1.Wait.Front $(UnityPath)Scripts\Some1.Wait.Front *.cs $(RobocopyOptions)) ^&amp; IF %ERRORLEVEL% LEQ 1 exit 0" />
+    <!--<Exec Command="dotnet moc -i ../../src/Some1.User.Unity/Assembly-CSharp.csproj -o ../../src/Some1.User.Unity/Assets/Some1/Scripts/Some1.User.Unity/Generated -s MemoryPack" />-->
+    <!--<Exec Command="dotnet moc -i ../../src/Some1.Wait.Back.MagicServer/Some1.Wait.Back.MagicServer.csproj -o ../../src/Some1.User.Unity/Assets/Some1/Scripts/Some1.User.Unity/Generated -s MemoryPack" />-->
+  </Target>
+  
+</Project>

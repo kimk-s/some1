@@ -1,0 +1,23 @@
+{
+    "name": "Some1.Play.Front",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1cc847bae5228a141adc8efa0ce668a8",
+        "GUID:48ed6fd20b5ed594fb066dd95ad19bb8",
+        "GUID:d9033be831e57c8429758d32c14c54f4",
+        "GUID:fe9ed66fe781b3341b16348ccfe3e2fc",
+        "GUID:9b675d79126fca04584b183e50babd97",
+        "GUID:a3d4082644a39ce40b9965d555f6118a",
+        "GUID:756335c0388f7114790e504ed368ae1d",
+        "GUID:77221876cc6b8244180b96e320b1bcd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 43a501e210b3dfa4f9488f456a0d5964
+timeCreated: 1455531403
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 114979
+  packageName: Cute Unicorn
+  packageVersion: 2.3
+  assetPath: Assets/Suriyun/Unicorn/Animations/Animation_check_Unicorn.controller
+  uploadId: 640456

@@ -1,0 +1,5 @@
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/724e4031/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/724e4031/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/724e4031/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/724e4031/armeabi-v7a/FramePacing/CMakeFiles/edit_cache.dir
+C:/Users/kimk3/Documents/GitHub/someft/some1/src/Some1.User.Unity/.utmp/RelWithDebInfo/724e4031/armeabi-v7a/FramePacing/CMakeFiles/rebuild_cache.dir

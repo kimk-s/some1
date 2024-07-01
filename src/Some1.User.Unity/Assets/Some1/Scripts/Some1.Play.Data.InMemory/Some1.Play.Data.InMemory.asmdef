@@ -1,0 +1,19 @@
+{
+    "name": "Some1.Play.Data.InMemory",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9c6d2e656b10bd44e99e2f36e0e2b7ec",
+        "GUID:337a3ff5954b32347ae8b6491101f30f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

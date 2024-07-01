@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>$(AssemblyName.Replace(".Abstractions", ""))</RootNamespace>
+    <LangVersion>9.0</LangVersion>
+    <Platforms>AnyCPU;x64;ARM64</Platforms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Some1.Reactive\Some1.Reactive.csproj" />
+  </ItemGroup>
+
+</Project>

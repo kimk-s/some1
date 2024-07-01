@@ -1,0 +1,20 @@
+{
+    "name": "Some1.Sync",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1cc847bae5228a141adc8efa0ce668a8",
+        "GUID:48ed6fd20b5ed594fb066dd95ad19bb8",
+        "GUID:9b675d79126fca04584b183e50babd97",
+        "GUID:756335c0388f7114790e504ed368ae1d",
+        "GUID:77221876cc6b8244180b96e320b1bcd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Some1.User.ViewModel",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1cc847bae5228a141adc8efa0ce668a8",
+        "GUID:da32781a949cc794798dcae22016cc13",
+        "GUID:d9033be831e57c8429758d32c14c54f4",
+        "GUID:1d3af1b54adae5c468460f71cca9e993",
+        "GUID:fe9ed66fe781b3341b16348ccfe3e2fc",
+        "GUID:c065fad1e4c5fd84ea8f1bea4fa01974",
+        "GUID:158cbeb84a66fff4e982c9876918748a",
+        "GUID:5397e6d58425a914baea87c8a32b88d1",
+        "GUID:9b675d79126fca04584b183e50babd97",
+        "GUID:a3d4082644a39ce40b9965d555f6118a",
+        "GUID:18bc21b05641f554f9a5f57caba5f987",
+        "GUID:7d473a8e68a69c14782ac87c794ed95c",
+        "GUID:1e2602eb1daf9194dbea4c9fe4108e70",
+        "GUID:756335c0388f7114790e504ed368ae1d",
+        "GUID:77221876cc6b8244180b96e320b1bcd4"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

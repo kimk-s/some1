@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Some1.Play.Server.Tcp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

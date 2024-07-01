@@ -1,0 +1,21 @@
+{
+    "name": "Some1.Wait.Back",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7d473a8e68a69c14782ac87c794ed95c",
+        "GUID:eb1002a55f7b6e04382ea4d11e02070b",
+        "GUID:8727cc4bc2b2dd64d936229696bcfa3a",
+        "GUID:756335c0388f7114790e504ed368ae1d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Some1.Wait.Data.InMemory",
+    "rootNamespace": "",
+    "references": [
+        "GUID:9c6d2e656b10bd44e99e2f36e0e2b7ec",
+        "GUID:eb1002a55f7b6e04382ea4d11e02070b"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Some1.Prefs.Data.Abstractions",
+    "rootNamespace": "",
+    "references": [
+        "GUID:1cc847bae5228a141adc8efa0ce668a8"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
