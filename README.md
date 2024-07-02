@@ -68,7 +68,7 @@ https://github.com/kimk-s/some1/assets/71550078/74c60a1d-c242-41aa-baf3-6ec8d2c6
 
 ### 서버 모듈
 - [Core](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Core) : 비즈니스 로직 모듈입니다.
-- [Data](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Data.Postgres) : 데이터베이스 모듈입니다.
+- [Data](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Data.Abstractions) : 데이터베이스 모듈입니다.
 
 ### 공용 모듈
 - [Sync](https://github.com/kimk-s/some1/tree/main/src/Some1.Sync) : 객체의 상태 변화를 추적하고, 서버와 클라이언트 사이에 동기화하는 모듈입니다.
@@ -76,7 +76,7 @@ https://github.com/kimk-s/some1/assets/71550078/74c60a1d-c242-41aa-baf3-6ec8d2c6
 
 ### 클라이언트 모듈
 - [Front](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Front) : 비즈니스 로직 모듈입니다.
-- [Client](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Client.Tcp) : 네트워크 모듈입니다.
+- [Client](https://github.com/kimk-s/some1/tree/main/src/Some1.Play.Client.Abstractions) : 네트워크 모듈입니다.
 
 ## Play(인게임) 서버 애플리케이션의 게임로직 루프
 <img width="700" src="https://github.com/kimk-s/some1/assets/71550078/4dcc269f-8b62-4254-8c03-7df704c784d3" />
