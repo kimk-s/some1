@@ -1,8 +1,6 @@
 # Some1
 슈팅MMORPG 게임입니다.
 
-[구글 플레이](https://play.google.com/store/apps/details?id=com.someft.some1a)에서 체험해 보실 수 있습니다.
-
 ## 슈팅
 https://github.com/kimk-s/some1/assets/71550078/2243ef17-c0e4-4ebf-aaa4-5489bf9618e0
 
