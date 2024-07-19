@@ -1,6 +1,10 @@
 # Some1
 슈팅MMORPG 게임입니다.
 
+[플레이 영상 링크](https://drive.google.com/file/d/1Lb3bJl0rG2IffpR6zhIc0LR8gI_o--KD/view?usp=drive_link)
+
+[APK 설치파일 다운로드 링크](https://drive.google.com/file/d/16l9fmcRre8IPXJvzKXrEA7ioNv6pHs19/view?usp=drive_link)
+
 ## 슈팅
 https://github.com/kimk-s/some1/assets/71550078/2243ef17-c0e4-4ebf-aaa4-5489bf9618e0
 
